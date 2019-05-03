@@ -149,5 +149,5 @@
         "start": "cross-env NODE_ENV=development node -r babel-register docs/server.js",
         "test": "npm run lint && jest"
     },
-    "version": "2.2.6"
+    "version": "2.3.3"
 }
