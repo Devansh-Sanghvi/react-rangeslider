@@ -429,7 +429,7 @@ class Slider extends Component {
     const coords = this.coordinates(position)
     const fillStyle = {
       [dimension]: `${coords.fill[0]}px`,
-      [direction]: `${coords.fill[1] || 0}px`
+      [direction]: `-${coords.fill[1] || 0}px`
     }
     const handleStyle =
       mode === 'single'
